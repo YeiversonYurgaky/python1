@@ -20,9 +20,9 @@ Sintaxis:
     [True, False, 24.9]
 
 
-
+'''
 def main() :
-    A= [
+    A = [
         ["a", "b", "c"],
         [1, 2, 3],
         [True, False, 24.9]
@@ -35,12 +35,13 @@ def main() :
         ]
 
     print(A [0][1])
+    print(B)
 
 
 main()
-
-Escribir una función que reciba dos matrices y devuelva la suma.
 '''
+Escribir una función que reciba dos matrices y devuelva la suma.
+
 
 matriz1 = [[1,2],[3,4]]
 matriz2 = [[1,2],[3,4]]
@@ -51,3 +52,4 @@ for i in range(2):
     for j in range(2):
         resultado[i][j] = matriz1[i][j] + matriz2[i][j]
 print(resultado)
+'''
