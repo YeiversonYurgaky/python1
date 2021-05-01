@@ -18,7 +18,7 @@ class bcolors:
 
     UNDERLINE = '\033[4m'
 
-print(bcolors.WARNING + "Warning: No active frommets remain. Continue?" + bcolors.ENDC)
+print(bcolors.UNDERLINE + "Warning: No active frommets remain. Continue?" + bcolors.ENDC)
 
 print(bcolors.FAIL + "Te acabas de equivocar"+ bcolors.ENDC)
 
@@ -26,7 +26,9 @@ opc = int(input(bcolors.FAIL + "Te acabas de equivocar: "+ bcolors.ENDC))
 
 print(bcolors.OKBLUE + "Warning: No active frommets remain. Continue?" + bcolors.ENDC)
 
+print(bcolors.OKCYAN + "Calculadora Trigonométrica" + bcolors.ENDC)
 
+option = int(input(bcolors.OKGREEN + "Para las series de mclurel se deben ingresar los angulos en radianes. | 1. Los ingresaré en grados | 2. Los ingresaré en radianes |: " + bcolors.ENDC))
 
 variable = 1.23456789
 
